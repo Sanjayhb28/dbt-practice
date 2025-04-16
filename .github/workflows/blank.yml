@@ -5,5 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print greeting
-        run: echo "dfsdfd dfvf"
-             echo "sanjay second line"
+        run: |
+          echo "dfsdfd dfvf\n"
+          echo "sanjay second line"
